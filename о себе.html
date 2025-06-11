@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Талипов Кямран - Обо мне</title>
+    <!-- Bootstrap 4 CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="CSS.CSS">
+</head>
+<body>
+    <!-- Навигация -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Талипов Кямран</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Обо мне</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Навыки</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Образование</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Герой секция -->
+    <section class="hero-section">
+        <div class="hero-bg-pattern slideshow"></div>
+        <div class="container hero-content text-center">
+            <h1 class="hero-title">Талипов Кямран</h1>
+            <p class="hero-subtitle">Студент по специальности "Информационная безопасность"</p>
+            <a href="#contact" class="btn btn-light btn-lg pulse">Связаться со мной</a>
+        </div>
+    </section>
+
+    <!-- Обо мне -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="section-title">Обо мне</h2>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="about-card animated" style="animation-delay: 0.2s;">
+                        <p>Я студент третьего курса Satbayev University по специальности "Информационная безопасность" активно ищу возможность пройти стажировку (с дальнейшим трудоустройством) в сфере IT.</p>
+                        <p>Меня отличает высокая мотивация, стремление к развитию и готовность к обучению. Я нацелен на то, чтобы не только получить практические навыки в программировании, но и внести свой вклад в реальные проекты, расширяя профессиональный опыт в индустрии информационных технологий.</p>
+                        <p><strong>Желаемые позиции:</strong> Разработчик (Frontend, Backend), Data-analytic, Data-engineering, UX-UI DESIGNER</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Навыки -->
+    <section id="skills" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title">Навыки</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="skills-card animated" style="animation-delay: 0.3s;">
+                        <h4>Технические навыки</h4>
+                        <div class="skill-item">
+                            <div class="skill-name">Python</div>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">C++</div>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">HTML/CSS</div>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">JavaScript</div>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="skills-card animated" style="animation-delay: 0.4s;">
+                        <h4>Изучал очень давно</h4>
+                        <div class="skill-item">
+                            <div class="skill-name">SQL</div>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 65%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">Excel</div>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 70%"></div>
+                            </div>
+                        </div>
+                        <h4 class="mt-4">Языки</h4>
+                        <div class="language-item">
+                            <span class="language-name">Русский</span>
+                            <span class="language-level">Свободный</span>
+                        </div>
+                        <div class="language-item">
+                            <span class="language-name">Казахский</span>
+                            <span class="language-level">A2</span>
+                        </div>
+                        <div class="language-item">
+                            <span class="language-name">Английский</span>
+                            <span class="language-level">B1</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Образование -->
+    <section id="education" class="py-5">
+        <div class="container">
+            <h2 class="section-title">Образование</h2>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="education-card animated" style="animation-delay: 0.2s;">
+                        <h4>Казахский национальный исследовательский технический университет (КАЗНИТУ)</h4>
+                        <p class="text-muted">Информационная Безопасность</p>
+                        <p>Студент третьего курса, активно участвующий в учебных проектах и стремящийся к профессиональному развитию в сфере IT.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title">Контакты</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="animated" style="animation-delay: 0.3s;">
+                        <ul class="contact-info">
+                            <li><i class="fas fa-map-marker-alt"></i> Алматы, Казахстан</li>
+                            <li><i class="fas fa-envelope"></i> derdvecvil@gmail.com</li>
+                            <li><i class="fab fa-telegram"></i> https://t.me/ckartii</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            
+            <div class="social-links">
+                <a href="https://t.me/ckartii" target="_blank"><i class="fab fa-telegram"></i></a>
+                <a href="mailto:derdvecvil@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap и jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script src="animated.js"></script>
+</body>
+</html>
