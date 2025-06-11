@@ -1,0 +1,54 @@
+// Анимация при скролле
+$(document).ready(function() {
+    // Плавная прокрутка для ссылок
+    $('a[href^="#"]').on('click', function(event) {
+        event.preventDefault();
+        $('html, body').animate({
+            scrollTop: $($(this).attr('href')).offset().top - 70
+        }, 800);
+    });
+    
+    // Анимация элементов при скролле
+    $(window).scroll(function() {
+        $('.animated').each(function() {
+            var position = $(this).offset().top;
+            var scroll = $(window).scrollTop();
+            var windowHeight = $(window).height();
+            
+            if (scroll + windowHeight > position + 100) {
+                $(this).css({
+                    'opacity': '1',
+                    'transform': 'translateY(0)'
+                });
+            }
+        });
+    });
+    
+
+    
+    // Запускаем анимацию для элементов, которые уже видны при загрузке
+    $(window).trigger('scroll');
+    
+    // Дополнительная анимация для заголовка
+    setTimeout(function() {
+        $('.hero-title').addClass('animated');
+        setTimeout(function() {
+            $('.hero-subtitle').addClass('animated');
+        }, 300);
+    }, 100);
+});
+
+const images = [
+    'images/IMG_8080.jpg'
+];
+
+let currentIndex = 0;
+const bgElement = document.querySelector('.hero-bg-pattern.slideshow');
+
+function changeBackground() {
+    bgElement.style.backgroundImage = `url('${images[currentIndex]}')`;
+    currentIndex = (currentIndex + 1) % images.length;
+}
+
+setInterval(changeBackground, 6000); // Каждые 6 секунд
+changeBackground(); // Первоначальный запуск
